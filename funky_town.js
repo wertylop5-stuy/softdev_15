@@ -12,11 +12,11 @@ const STUDENTS = [
 let fibonacci = function(n) {
 	if (n < 3) return 1;
 	return fibonacci(n-1) + fibonacci(n-2);
-}
+};
 
 let randomStudent = function() {
 	return STUDENTS[ parseInt(Math.random() * STUDENTS.length) ]
-}
+};
 
 var gcd = function(a, b){
     if(a<b){
@@ -27,7 +27,7 @@ var gcd = function(a, b){
 	return b;
     }
     return gcd(b, r);
-}
+};
 
 /*
 console.log(fibonacci(1));
